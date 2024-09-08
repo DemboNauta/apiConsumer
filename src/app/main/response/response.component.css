@@ -1,0 +1,99 @@
+.json-response {
+    position: relative;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #2d2d2d;
+    color: #00d084;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #00d084;
+    max-height: 600px;
+    overflow-y: auto; /* Cambiado para manejar el overflow */
+    width: 100%;
+    box-shadow: 0 0 5px #00d084;
+    box-sizing: border-box; /* Asegura que el padding y border estén incluidos en el tamaño total */
+}
+
+.json-response::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px; 
+    height: 100%;
+    background-color: #2d2d2d;
+    pointer-events: none; 
+}
+
+.json-response::-webkit-scrollbar {
+    width: 12px; 
+}
+
+.json-response::-webkit-scrollbar-track {
+    background: #302f2f; 
+    border-radius: 8px;
+}
+
+.json-response::-webkit-scrollbar-thumb {
+    background: #00d084; 
+    border-radius: 8px; 
+}
+
+.json-response::-webkit-scrollbar-thumb:hover {
+    background: rgb(70, 70, 70); 
+    cursor: pointer;
+}
+
+pre {
+    &::-webkit-scrollbar {
+        width: 12px; 
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: #302f2f;
+        
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #00d084;
+        border-radius: 8px;
+
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgb(70, 70, 70)084;
+    }
+}
+
+.sticky-copy-btn {
+    transition: all 0.3s ease;
+}
+
+.sticky-copy-btn:hover {
+    color: #06ffa4;
+}
+
+.notification {
+    position: absolute;
+    top: -10px;
+    /* Mueve la notificación por encima del botón */
+    right: -10px;
+    /* Alinea la notificación con el lado derecho */
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: #2D2D2D;
+    border: 1px solid #00d084;
+    color: #00d084;
+
+}
+
+.notification.show {
+    opacity: 1;
+}

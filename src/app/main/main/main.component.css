@@ -1,0 +1,63 @@
+.btn-green {
+    padding: 0.5rem 2rem;
+    border-radius: 0.35rem;
+    background-color: #2d2d2d;
+    color: #00d084;
+    border: 1px solid #00d084;
+
+    &:hover {
+        background-color: #2d2929;
+        color: #05f09a;
+        border: 1px solid #00d084;
+        box-shadow: 0 0 5px #00d084;
+    }
+}
+
+.form-group label {
+    color: #ffffff;
+}
+
+.form-control {
+    background-color: #2d2d2d;
+    color: #05f09a;
+    border: 1px solid #00d084;
+    -webkit-appearance: none; /* Chrome, Safari, Edge */
+    -moz-appearance: none; /* Firefox */
+    appearance: none; /* Otros navegadores */
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #05f09a;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #2d2d2d;
+}
+.form-control:focus {
+    background-color: #2d2929;
+    color: #05f09a;
+    border: 1px solid #00d084;
+    box-shadow: 0 0 5px #00d084;
+}
+
+.form-control::placeholder {
+    color: #aaaaaa;
+}
+
+.form-select {
+    background-color: #2d2d2d;
+    color: #05f09a;
+    border: 1px solid #00d084;
+}
+
+.form-select option {
+    background-color: #2d2d2d;
+    color: #05f09a;
+}
+.form-select:focus {
+    background-color: #2d2929;
+    color: #05f09a;
+    border: 1px solid #00d084;
+    box-shadow: 0 0 5px #00d084;
+}

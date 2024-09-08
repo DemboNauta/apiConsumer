@@ -1,0 +1,11 @@
+.text-green {
+    color: #00d084;
+    background-color: #2d2d2d;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #00d084;
+    box-shadow: 0 0 5px #00d084;
+}
