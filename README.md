@@ -1,9 +1,9 @@
-## API Consumer
+# API Consumer
 ![image](https://github.com/user-attachments/assets/6af326f0-956f-410e-9a8c-79436b37f807)
 
 API Consumer es una herramienta creada con Angular 18 y Bootstrap 5 para interactuar con APIs de manera sencilla y visual.
 
-# Tecnologías utilizadas
+## Tecnologías utilizadas
 
 Angular 18
 Bootstrap 5
